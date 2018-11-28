@@ -40,8 +40,8 @@ namespace AzureDataCatalogDemo.Controllers
     /// </summary>
     public static class ADCRequester
     {
-     //   static string clientIDFromAzureAppRegistration = "376d6fb8-7af4-484c-8425-2f36b9301f3e"; // THIS IS where we need to provide ClientID from Data Catalog Registration 
-        static string clientIDFromAzureAppRegistration = "2371af84-f018-4d98-af2d-211b663436fa"; // THIS IS where we need to provide ClientID from Data Catalog Registration 
+     //   static string clientIDFromAzureAppRegistration = "{ClientID}"; // THIS IS where we need to provide ClientID from Data Catalog Registration 
+        
         static AuthenticationResult authResult = null;
         public static string catalogName = "KeyBankDataCatalog"; // DefaultCatalog
 
